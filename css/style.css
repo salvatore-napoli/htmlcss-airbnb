@@ -9,6 +9,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .airbnb-block:first-of-type {
@@ -21,4 +22,13 @@
 
 .airbnb-block:last-child {
   background-image: url("../img/roma.jpg");
+}
+
+.block-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #fff;
 }
